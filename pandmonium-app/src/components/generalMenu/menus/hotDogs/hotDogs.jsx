@@ -3,6 +3,7 @@ import '../FoodStyle.scss';
 import hotdogs from '../../img/jocho.png';
 import HotdogName from '../food'
 
+
 function Hotdog() { //componente principal
     return (
       <div className= "container-food">
