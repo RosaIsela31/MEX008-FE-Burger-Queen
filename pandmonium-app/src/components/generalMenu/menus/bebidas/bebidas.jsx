@@ -4,7 +4,7 @@ import Drink from './bebida';
 class Drinks extends React.Component {
     render(){
         return (
-            <div>
+            <div className="container">
                 <Drink name="Malteadas"/>
                 <Drink name="Sodas italianas"/>
             </div>

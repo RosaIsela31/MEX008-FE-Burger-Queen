@@ -15,7 +15,6 @@ function Pizza() { //componente principal
       <PizzaName name="Ángel caído" icon={pizza}/>
       <PizzaName name="Purgatorio" icon={pizza}/>
       <PizzaName name="Tiki-Hawaiana" icon={pizza}/>
-
     </div>
   );
 }

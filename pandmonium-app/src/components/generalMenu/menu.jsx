@@ -15,7 +15,7 @@ import {Link} from 'react-router-dom';
 //con props
 function menuComponent(){ //componente 1
   return (
-    <div>
+    <div className= "container-food">
         <Link to={'/Hamburguesas'}><FoodMenu name="principal-hamburger" icon={hamburger} /></Link>
         <Link to={'/Pizzas'}><FoodMenu name="principal-pizza" icon={pizza} /></Link>
         <Link to={'/Hotdogs'}><FoodMenu name="principal-jocho" icon={jocho} /></Link>

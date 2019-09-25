@@ -1,5 +1,5 @@
 import React from 'react';
-import Pizzas from '../../components/generalMenu/menus/pizzas/Pizzas';
+import Pizzas from '../../components/generalMenu/menus/pizzas/pizzas';
 import Toolbar from '../../components/sidebar/toolbar/Toolbar';
 
 class PizzasMenu extends React.Component {

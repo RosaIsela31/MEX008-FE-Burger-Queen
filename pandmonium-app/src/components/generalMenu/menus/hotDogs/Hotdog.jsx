@@ -14,7 +14,6 @@ function Hotdog() { //componente principal
       <HotdogName name="Pit bull" icon={hotdogs}/>
       <HotdogName name="Hachiko" icon={hotdogs}/>
       <HotdogName name="Pastor alemán" icon={hotdogs}/>
-
     </div>
   );
 }
