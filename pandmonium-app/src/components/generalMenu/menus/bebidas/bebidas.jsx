@@ -1,5 +1,11 @@
 import React from 'react';
-import Drink from './bebida';
+import '../FoodStyle.css';
+
+function Drink(props){
+    return(
+        <button>{props.name}</button>
+    );
+}
 
 class Drinks extends React.Component {
     render(){
