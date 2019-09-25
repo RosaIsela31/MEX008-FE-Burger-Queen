@@ -1,6 +1,6 @@
 import React from 'react';
 import '../FoodStyle.scss';
-import pizza from '../../img/hamburger.png';
+import pizza from '../../img/pizza.png';
 import PizzaName from '../food'
 
 //con props

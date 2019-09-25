@@ -13,5 +13,5 @@ class HotdogsMenu extends React.Component {
         );
     
     }
-    }
+}
     export default HotdogsMenu;

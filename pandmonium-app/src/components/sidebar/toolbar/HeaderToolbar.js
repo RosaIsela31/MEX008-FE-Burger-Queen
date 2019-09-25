@@ -6,7 +6,7 @@ import './HeaderToolbar.scss';
 
 
 const header = props => (
-  <hearder className="toolbar">
+  <header className="toolbar">
     <nav className="toolbar__navigation">
       <div> 
         <DrawerToggleButton click={props.drawerClickHandler}/>
@@ -21,7 +21,7 @@ const header = props => (
         </ul>
       </div>
     </nav>
-  </hearder>
+  </header>
 );
 
 export default header;
