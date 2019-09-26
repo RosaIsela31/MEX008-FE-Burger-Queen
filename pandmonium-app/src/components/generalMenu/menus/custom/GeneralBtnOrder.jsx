@@ -1,14 +1,14 @@
-// import React, {Component} from 'react';
+import React, {Component} from 'react';
 
-// class GeneralBtnOrder extends Component{
+class GeneralBtnOrder extends Component{
 
-//   render(){
-//     return(
-//       <div>
-//         <button>Añadir pedido</button>
-//       </div>
-//       )
-//   }
-// }
+  render(){
+    return(
+      <div>
+        <button>Añadir pedido</button>
+      </div>
+      )
+  }
+}
 
-// export default GeneralBtnOrder;
+export default GeneralBtnOrder;
