@@ -10,7 +10,7 @@ class GeneralViewCustom extends Component {
     return(
       <div>
         <GeneralSelectionTypeFood option1="sencilla"  option2="combo" />,
-        <GeneralIngredients text1 = "Componente de Sandy"/>,
+        <GeneralIngredients text1 = "Componente"/>,
         <GeneralBtnOrder />
       </div> 
     );
