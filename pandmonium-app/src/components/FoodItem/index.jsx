@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom';
 class FoodItem extends Component {
     render(){
         const {icons} = this.props
-        console.log(icons)
+      //  console.log(icons)
         const iconItem = icons.filter(i => {
              console.log(`icons id:${i.id}|item: ${this.props.item.type}`)
         return i.id === this.props.item.type

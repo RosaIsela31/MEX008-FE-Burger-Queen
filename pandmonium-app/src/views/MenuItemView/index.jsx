@@ -13,7 +13,7 @@ class MenuItemView extends Component {
         return(
             <section>
                 <Sidebar/>
-                <h1 className='title'></h1>
+                <h1 className='title'>Template</h1>
                 <main className="container">
                     <div className="container-food">
                         <Food icons={this.state.icon} name={this.state.data} />

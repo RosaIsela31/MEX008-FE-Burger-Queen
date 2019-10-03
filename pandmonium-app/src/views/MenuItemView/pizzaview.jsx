@@ -13,7 +13,7 @@ class PizzaView extends Component {
         return(
             <section>
                 <Sidebar/>
-                <h1 className='title'></h1>
+                <h1 className='title'>Pizzas</h1>
                 <main className="container">
                     <div className="container-food">
                         <Pizza icons={this.state.icon} name={this.state.data} />

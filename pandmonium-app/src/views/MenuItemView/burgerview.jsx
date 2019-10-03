@@ -13,7 +13,7 @@ class BurgerView extends Component {
         return(
             <section>
                 <Sidebar/>
-                <h1 className='title'></h1>
+                <h1 className='title'>Hamburguesas</h1>
                 <main className="container">
                     <div className="container-food">
                         <Burger icons={this.state.icon} name={this.state.data} />

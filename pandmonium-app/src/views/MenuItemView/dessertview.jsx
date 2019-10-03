@@ -13,7 +13,7 @@ class DessertView extends Component {
         return(
             <section>
                 <Sidebar/>
-                <h1 className='title'></h1>
+                <h1 className='title'>Postres</h1>
                 <main className="container">
                     <div className="container-food">
                         <Dessert icons={this.state.icon} name={this.state.data} />

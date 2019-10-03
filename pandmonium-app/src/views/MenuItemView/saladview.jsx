@@ -13,7 +13,7 @@ class SaladView extends Component {
         return(
             <section>
                 <Sidebar/>
-                <h1 className='title'></h1>
+                <h1 className='title'>Ensaladas</h1>
                 <main className="container">
                     <div className="container-food">
                         <Salad icons={this.state.icon} name={this.state.data} />
