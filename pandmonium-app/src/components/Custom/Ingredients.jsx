@@ -1,11 +1,12 @@
 import React, { Component } from "react";
 import './style.scss';
+import CheckBox from './CheckBox';
 
 class Ingredients extends Component {
   render(){
     return(
       <div className="ingredientsOptions">
-        <p>Ingrediente 1</p>
+        <p>Ingrediente 1 <CheckBox/></p>
         <p>Ingrediente 2</p>
         <p>Ingrediente 3</p>
         <p>Ingrediente 4</p>

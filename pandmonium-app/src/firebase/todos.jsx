@@ -15,7 +15,7 @@ state ={
 }
 //Toma la variable de configuración de Firebase e itera sobre la colección creada(snapShots) 
     componentDidMount(){
-         db.collection('todos').onSnapshot((snapShots) => {
+         db.collection('Mesas-P').onSnapshot((snapShots) => {
                this.setState({
                    items:snapShots.docs.map(doc => {
                        return{id:doc.id,data:doc.data()}
@@ -36,7 +36,7 @@ state ={
     action =() => {
         const {inputValue, edit} = this.state;
         !edit?
-        db.collection("todos").add({
+        db.collection("Mesas-P").add({
             item: inputValue
         }).then( () => {
             this.message('Agregado')
@@ -48,7 +48,7 @@ state ={
 
  //Función para pasar el id. En la variable se llama a la colección y posteriormente a la variable doc para verificar si el documento existe, se realiza un seteo en el estado. En ese estado se encuentra el valor del input. Editar es true y el id es igual al que tenemos en el documento.
  getTodo = (id) => {
-     let docRef = db.collection("todos").doc(id);
+     let docRef = db.collection("Mesas-P").doc(id);
 
      docRef.get().then((doc)=> {
          if(doc.exists) {
@@ -68,7 +68,7 @@ state ={
  //Declarando la variable update para actualizar (el valor item va a cambiar por el del inputValue)
  update =() =>{
      const {id,inputValue} = this.state
-     db.collection("todos").doc(id).update({
+     db.collection("Mesas-P").doc(id).update({
          item: inputValue
      }).then(()=>{
          this.message('Actualizado')
@@ -82,7 +82,7 @@ state ={
 
  //Función para el botón Eliminar
  deleteItem = (id)=>{
-    db.collection("todos").doc(id).delete();
+    db.collection("Mesas-P").doc(id).delete();
  }
 
 //Función para el mensaje que recibirá el usuario de que se ha agregado algo
