@@ -12,7 +12,7 @@ import CustomView from '../views/CustonViews/index';
 // import SodaView from '../views/MenuItemView/sodaview';
 // import MilkshakeView from '../views/MenuItemView/milkshakeview';
 import Todos from '../firebase/todos';
-
+import OrderCarView from '../views/OrderCarView/';
 
 class WhitRouter extends React.Component {
    render(){
@@ -38,6 +38,8 @@ class WhitRouter extends React.Component {
                 return(<CustomView/>);
            case '/soda':
                 return(<Todos />)
+          case '/carrito':
+                return(<OrderCarView />)
            // case '/malteadas':
            //     return(<MilkshakeView />)
            default:
