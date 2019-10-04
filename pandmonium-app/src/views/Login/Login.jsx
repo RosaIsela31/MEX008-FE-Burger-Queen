@@ -60,7 +60,7 @@ class Login extends React.Component{
           {
             error
           }  */}
-          <Link to={{pathname: './tables'}}>
+          <Link to={{pathname: './mesas'}}>
           <BtnLogin onClick = {(e) => { signInWithEmailAndPassword(email, password)}} /> 
 
           </Link>
