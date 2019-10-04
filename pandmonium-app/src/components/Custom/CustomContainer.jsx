@@ -4,13 +4,20 @@ import CustomPrice from './CustomPrice';
 import './style.scss';
 import Modal from '../Modal/Modal';
 
-
+//LocalStorage
+import '../LocalStorage/LocalStorage';
 
 class CustomContainer extends Component {
   state = { show: false };
 
   showModal = () => {
     this.setState({ show: true });
+        // setTimeout(()=>{
+        //   this.setState({
+        //       fadeIn:false,
+        //       message:''
+        //   })
+        // }, 3000);
   };
 
 
@@ -49,19 +56,3 @@ class CustomContainer extends Component {
 };
 
 export default CustomContainer;
-
-const classic = document.querySelector('#classic');
-console.log(classic);
-
-
-// Load-EventsListeners 
-
-loadEventListeners();
-
-function loadEventListeners() {
-
-}
-
-const getTasks = () => {
-  let tasks;
- document.querySelector('#classic')}
