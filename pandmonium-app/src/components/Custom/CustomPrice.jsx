@@ -18,7 +18,7 @@ class CustomPrice extends Component {
 
     store.push(election);
 
-    localStorage.setItem('order', JSON.stringify(store)); 
+    localStorage.setItem('gula', JSON.stringify(store)); 
     // console.log(store);
   }
 
