@@ -6,7 +6,7 @@ import './style.css';
 class Car extends Component{
   render(){
     return(
-      <Link>
+      <Link to={{pathname: './carrito'}}>
         <button className='btn-carrito'>
           <img className='carrito' src={car} alt="carrito"/>
         </button>
