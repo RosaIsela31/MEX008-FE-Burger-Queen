@@ -1,18 +1,24 @@
 import React, {Component} from 'react';
 import IconMenu from '../../components/Menu/icon.json';
+import Sidebar from '../../components/sidebar/Sidebar';
 import Menu from '../../components/Menu/index';
-console.log(IconMenu);
+import '../TableSelectorView/Style.css';
 
 class MenuView extends Component {
     state = {
-        icon : IconMenu
+        icon : IconMenu,
+
     }
     render(){
         return(
-            <section className="container">
-                <div className="container-food">
-                    <Menu icons={this.state.icon}/>
-                </div>
+            <section>
+                <Sidebar/>
+                <h1 className="title">Menu</h1>
+                <main className="container">
+                    <div className="container-food">
+                        <Menu icons={this.state.icon}/>
+                    </div>
+                </main>
             </section>
         );
     }

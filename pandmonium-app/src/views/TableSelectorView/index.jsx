@@ -8,11 +8,11 @@ import './Style.css';
 class selectTables extends React.Component {
 render (){
     return (
-    <div>
+    <section>
         <Sidebar />
-        <p className="title">Mesas</p>
+        <h1 className="title">Mesas</h1>
         <AllTables />
-    </div>
+    </section>
     );
 
 }
