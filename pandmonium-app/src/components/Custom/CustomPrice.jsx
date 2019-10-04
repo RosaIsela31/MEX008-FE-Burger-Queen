@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import './style.scss';
+//LocalStorage
+import '../LocalStorage/LocalStorage';
 
 class CustomPrice extends Component {
   render(){
@@ -9,8 +11,10 @@ class CustomPrice extends Component {
           <img src='../../assets/img/hamburger.png' alt="#"/>
         </figure>
         <div className="option-price">
-          <p>Opción 1</p>
-          <p>Opción 2</p>
+          {/* <p>{this.props.data.classic}</p>
+          <p>{this.props.data.combo}</p> */}
+          <p id="classic">Classic</p>
+          <p>Combo</p>
         </div>
       </div>
 
