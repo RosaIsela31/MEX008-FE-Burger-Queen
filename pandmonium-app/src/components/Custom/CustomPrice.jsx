@@ -1,7 +1,27 @@
 import React, { Component } from 'react';
 import './style.scss';
+//LocalStorage
+import '../LocalStorage/LocalStorage';
 
 class CustomPrice extends Component {
+
+  handleChecket = (e) => {
+    // console.log(e.target.value);
+    const election = e.target.value;
+    let store = [];
+    // console.log(localStorage);
+       if(localStorage.getItem(election) === null){
+         store = [];
+       }else{
+         store = JSON.parse(localStorage.getItem(election));
+       }
+
+    store.push(election);
+
+    localStorage.setItem('order', JSON.stringify(store)); 
+    // console.log(store);
+  }
+
   render(){
     return(
       <div className="price-custom">
@@ -9,11 +29,31 @@ class CustomPrice extends Component {
           <img src='../../assets/img/hamburger.png' alt="#"/>
         </figure>
         <div className="option-price">
-          <p>Opción 1</p>
-          <p>Opción 2</p>
+          {/* <p>{this.props.data.classic}</p>
+          <p>{this.props.data.combo}</p> */}
+          <div>
+            <label htmlFor="classic" name="check" >Classic</label>
+            <input 
+                name="check"
+                id="classic" 
+                type="radio" 
+                value="classic" 
+                onChange={this.handleChecket}
+            />
+          </div>
+          <div>
+            <label htmlFor="combo" name="check" >Combo</label>
+            <input 
+                name="check"
+                id="combo" 
+                type="radio" 
+                value="combo" 
+                onChange={this.handleChecket}
+            />
+          </div>
+
         </div>
       </div>
-
     )
   }
 }
