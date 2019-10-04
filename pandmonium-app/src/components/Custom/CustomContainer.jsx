@@ -9,6 +9,15 @@ class CustomContainer extends Component {
 
   showModal = () => {
     this.setState({ show: true });
+
+        setTimeout(()=>{
+          this.setState({
+              fadeIn:false,
+              message:''
+          })
+        }, 3000);
+  
+
   };
 
 
