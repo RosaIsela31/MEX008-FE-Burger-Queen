@@ -4,7 +4,7 @@ import React, {Component} from 'react';
 
 import WhitRouter from './views/whitRouter'
 import RouteJSON from './components/Menu/icon.json';
-import Tables from './views/TableSelectorView/index';
+import Mesas from './views/TableSelectorView/index';
 import Menu from './views/MenuItemView/index';
 import Todos from './firebase/todos';
 
@@ -32,7 +32,7 @@ class App extends Component {
                     <Route exact path='/menu' component={Menu} />
                     <Route exact path='/todos' component={Todos} />
                     <Route exact path='/' component={Login}/>
-                    <Route exact path='/tables' component={Tables} />
+                    <Route exact path='/mesas' component={Mesas} />
 
 
                 </Switch>
