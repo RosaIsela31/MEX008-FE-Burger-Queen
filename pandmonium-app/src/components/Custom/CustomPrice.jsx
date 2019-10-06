@@ -12,9 +12,10 @@ class CustomPrice extends Component {
     // console.log(localStorage);
        if(localStorage.getItem(election) === null){
          store = [];
-       }else{
-         store = JSON.parse(localStorage.getItem(election));
        }
+      //  else{
+      //    store = JSON.parse(localStorage.getItem(election));
+      //  }
 
     store.push(election);
 
