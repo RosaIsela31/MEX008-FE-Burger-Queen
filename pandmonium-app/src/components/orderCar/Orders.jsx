@@ -9,18 +9,17 @@ class Orders extends Component{
             <div>
             <h4>Pedidos</h4>
             <div  className = "orderContainer">
-            <input type = "text" />
-            <figure>
-                <button className= "btn-add">
-                <img className = "img-add"src={imgArrow} alt="icono para desplegar"/>
-                </button>
-            </figure>
+            <div type = "text">              
+             {localStorage.getItem('No_mesa')}
+            </div>
+            
             <figure>
                 <button className= "btn-add">
                 <img className = "img-add"src={imgTrash} alt="icono para desplegar"/>
                 </button>
             </figure>
             </div>
+            {/* -------------------------- */}
             </div>
         );
     }
