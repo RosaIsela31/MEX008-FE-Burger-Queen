@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import './style.scss';
-import CheckBox from './CheckBox';
+//import CheckBox from './CheckBox';
 
 class Ingredients extends Component {
   render(){

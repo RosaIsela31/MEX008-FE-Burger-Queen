@@ -9,7 +9,7 @@ class Orders extends Component{
             <div>
             <h4>Pedidos</h4>
             <div  className = "orderContainer">
-            <imput type = "text" />
+            <input type = "text" />
             <figure>
                 <button className= "btn-add">
                 <img className = "img-add"src={imgArrow} alt="icono para desplegar"/>
