@@ -7,8 +7,10 @@ class TableList extends React.Component{
    state ={
        changeColorGreen: true
    }
+   
    changeColor = (x)=>{
        this.setState({changeColorGreen: !this.state.changeColorGreen})
+
       
    }
    render(){
