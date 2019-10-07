@@ -16,8 +16,8 @@ class CustomPrice extends Component {
   render(){
     return(
       <div className="price-custom">
-        <figure>
-          <img src='../../assets/img/hamburger.png' alt="#"/>
+        <figure className="cuadro">
+          <img className="iconFood"  src='../../assets/img/hamburger.png' alt="#"/>
         </figure>
         <div className="option-price">
           {/* <p>{this.props.data.classic}</p>
