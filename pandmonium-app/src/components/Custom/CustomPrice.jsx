@@ -16,7 +16,7 @@ class CustomPrice extends Component {
   render(){
     return(
       <div className="price-custom">
-        <figure>
+        <figure className='figure-custom'>
           <img src='../../assets/img/hamburger.png' alt="#"/>
         </figure>
         <div className="option-price">

@@ -36,7 +36,9 @@ figure {
 
   .ingredientsOptions {
       display: flex;
-      flex-direction: column;     
+      flex-direction: column; 
+      font-family: 'Reem kufi';
+      font-size: 17px;    
   }
 
   .buttonOrder {
@@ -58,7 +60,22 @@ figure {
       
   }
 
-
+.figure-custom{
+    display: flex;
+  color:black;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  margin: 1rem;
+  padding: 1rem;
+  width: 7rem;
+  height:7rem;
+  text-align:center;
+  font-family: 'Reem Kufi', sans-serif;
+  box-shadow: 0px 2px 8px 7px rgba(77, 74, 74, 0.2);
+  border-radius: 10%;
+}
 
 
 

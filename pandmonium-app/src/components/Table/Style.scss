@@ -1,13 +1,24 @@
 body{
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#eecc45+0,e27f4c+100 */
+background:  #eecc45; /* Old browsers */
+background: -moz-linear-gradient(top,  #eecc45 0%, #e27f4c 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #eecc45 0%,#e27f4c 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #eecc45 0%,#e27f4c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eecc45', endColorstr='#e27f4c',GradientType=0 ); /* IE6-9 */
+  
   display: flex;
   flex-direction: column;
+  background-attachment: fixed;
+
 }
 
 #root{
   margin: 4rem auto;
-  width: 100%;
-  
-  
+  width: 100vw;
+  height: 100vh;
+  // background-image: url('../../../src/assets/img/fondo.png') ;
+  // background: cover;
+
 }
 
 //números
@@ -35,15 +46,26 @@ div.allTables {
       }
 
       button {
-          height: 3rem;
+          height: 4rem;
           width: 3rem;
-          border: 1px solid gray;
           background-color: gray;
           box-shadow: 0 6px 10px -5px rgba(0, 0, 0, 0.3);
-          margin: 8px;
+          margin: 3px;
           font-size: 1.5rem;
       }
   }
 } 
 
+
+.allTables{
+  background-color: #e5e5e5;
+  padding: 1rem;
+  border-radius: 20px;
+}
+
+.single-table{
+  border-radius: 10px;
+  color: #afafaf;
+  font-size: 100%;
+}
 

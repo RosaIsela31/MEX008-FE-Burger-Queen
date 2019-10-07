@@ -38,3 +38,11 @@
  align-items: center;
  justify-content: center;
 }
+
+.login-container{
+  background-color: white;
+  padding-bottom: 2rem;
+  width: 85vw;
+  margin: 0 auto;
+  border-radius: 10px;
+}
