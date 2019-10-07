@@ -9,10 +9,10 @@ import DessertView from '../views/MenuItemView/dessertview';
 import Login from '../views/Login/Login';
 import Mesas from '../views/TableSelectorView/index'
 import CustomView from '../views/CustonViews/index';
+import Orders from '../views/OrderCarView/index';
 // import SodaView from '../views/MenuItemView/sodaview';
 // import MilkshakeView from '../views/MenuItemView/milkshakeview';
-import Todos from '../firebase/todos';
-import OrderCarView from '../views/OrderCarView/';
+import OrderCarView from '../components/orderCar/orderCarContainer';
 
 class WhitRouter extends React.Component {
    render(){
@@ -36,8 +36,8 @@ class WhitRouter extends React.Component {
                 return(<Mesas/>)
            case '/gula':
                 return(<CustomView/>);
-           case '/soda':
-                return(<Todos />)
+          //  case '/ordenes':
+          //       return(<OrderCarView />)
           case '/carrito':
                 return(<OrderCarView />)
            // case '/malteadas':
