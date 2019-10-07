@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import hamburger from '../../../public/assets/img/hamburger.png';
+import hamburger from '../../../src/assets/img/hamburger.png'
 import './style.scss';
 
 
