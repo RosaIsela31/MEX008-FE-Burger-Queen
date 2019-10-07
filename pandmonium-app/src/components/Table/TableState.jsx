@@ -8,6 +8,9 @@ class TableList extends React.Component{
        changeColorGreen: true
    }
    changeColor = (x)=>{
+    this.setState({changeColorGreen: !this.state.changeColorGreen})
+
+    this.setState({ show: true });
        const id = x.target.id;
        console.log('id', id);
 
@@ -19,15 +22,20 @@ class TableList extends React.Component{
        store.push(id);
        localStorage.setItem('No_mesa', JSON.stringify(store) );
     
-       this.setState({changeColorGreen: !this.state.changeColorGreen})
+    //    this.setState({changeColorGreen: !this.state.changeColorGreen})
       
    }
    render(){
        if(this.state.changeColorGreen){
            return(
                <Link to='/Menu' >
-               <button id={this.props.number} style={{backgroundColor: (this.state.changeColorGreen) ? '#C4C4C4' : "#42FF00"}}
-               onClick={this.changeColor}>
+               <button 
+               id={this.props.number} 
+            // style={{backgroundColor: (this.state.changeColorGreen) ? '#C4C4C4' : "#42FF00"}}
+            //    onClick={this.changeColor}
+               style={{backgroundColor: (this.state.changeColorGreen) ? '#C4C4C4' : "#42FF00"}}
+              onClick={this.changeColor}
+               >
               {this.props.number}
               </button>
               </Link>
