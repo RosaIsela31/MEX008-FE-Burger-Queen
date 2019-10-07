@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Link} from 'react-router-dom';
+//import {Link} from 'react-router-dom';
 // components
 import Modal from '../Modal/Modal';
 // assets
@@ -17,10 +17,10 @@ class BtnCustomOrder extends Component {
 
     this.setState({ show: true });
 
-    console.log(localStorage.getItem('No_mesa')
+    console.log(localStorage.getItem(JSON.stringify('No_mesa'))
     );
     
-
+  
     // this.setState({ show: false });
   }
 

@@ -1,5 +1,4 @@
 import React,{Component} from 'react';
-import imgArrow from '../../assets/img/arrow111 (1).png'
 import imgTrash from '../../assets/img/trash.png'
 
 class Orders extends Component{
@@ -10,7 +9,7 @@ class Orders extends Component{
             <h4>Pedidos</h4>
             <div  className = "orderContainer">
             <div type = "text">              
-             {localStorage.getItem('No_mesa')}
+             <p>Mesa {localStorage.getItem('No_mesa')}</p>
             </div>
             
             <figure>
