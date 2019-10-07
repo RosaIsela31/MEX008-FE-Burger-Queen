@@ -1,26 +1,16 @@
 import React, { Component } from 'react';
 import './style.scss';
-//LocalStorage
-import '../LocalStorage/LocalStorage';
 
 class CustomPrice extends Component {
 
   handleChecket = (e) => {
-    // console.log(e.target.value);
+    console.log(e.target.value);
     const election = e.target.value;
     let store = [];
-    // console.log(localStorage);
-       if(localStorage.getItem(election) === null){
-         store = [];
-       }
-      //  else{
-      //    store = JSON.parse(localStorage.getItem(election));
-      //  }
-
+     
     store.push(election);
 
     localStorage.setItem('gula', JSON.stringify(store)); 
-    // console.log(store);
   }
 
   render(){
@@ -38,7 +28,7 @@ class CustomPrice extends Component {
                 name="check"
                 id="classic" 
                 type="radio" 
-                value="classic" 
+                value="Gula classic" 
                 onChange={this.handleChecket}
             />
           </div>
@@ -48,7 +38,7 @@ class CustomPrice extends Component {
                 name="check"
                 id="combo" 
                 type="radio" 
-                value="combo" 
+                value="Gula combo" 
                 onChange={this.handleChecket}
             />
           </div>

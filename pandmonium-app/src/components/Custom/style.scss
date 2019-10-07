@@ -40,7 +40,12 @@ figure {
   }
 
   .buttonOrder {
-      margin: 1rem auto;
+        margin: 0% auto;
+        display: flex;
+        align-content: center;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
   }
 
   button {
@@ -50,8 +55,9 @@ figure {
       border: none;
       color: white;  
       font-family: 'Reem Kufi', sans-serif;   
-
+      
   }
+
 
 
 
