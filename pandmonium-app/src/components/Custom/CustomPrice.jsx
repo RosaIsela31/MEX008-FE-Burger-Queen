@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import './style.scss';
 
+import hamburger from '../../assets/img/hamburger.png';
+
 class CustomPrice extends Component {
 
   handleChecket = (e) => {
@@ -17,7 +19,7 @@ class CustomPrice extends Component {
     return(
       <div className="price-custom">
         <figure className='figure-custom'>
-          <img src='../../assets/img/hamburger.png' alt="#"/>
+          <img src={hamburger} alt="#"/>
         </figure>
         <div className="option-price">
           {/* <p>{this.props.data.classic}</p>
