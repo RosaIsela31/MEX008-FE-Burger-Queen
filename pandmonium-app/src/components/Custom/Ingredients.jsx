@@ -1,12 +1,13 @@
 import React, { Component } from "react";
 import './style.scss';
+//import CheckBox from './CheckBox';
 
 class Ingredients extends Component {
   handleChecket = (e) => {
     console.log(e.target.value);
     const checked = e.target.value;
     let store = [];
-     
+ 
     store.push(checked);
 
     localStorage.setItem('extra', JSON.stringify(store)); 
@@ -16,6 +17,7 @@ class Ingredients extends Component {
     return(
       <div className="ingredientsOptions">
         {/* <p>{this.props.data.description}</p> */}
+
         <p>Mezcla de vegetales con: <br/> 
           Avena, Garam y Lechuga <br/> 
           Masala - Especias indúes  <br/> 
@@ -52,6 +54,7 @@ class Ingredients extends Component {
                 onChange={this.handleChecket}
             />
         </label>
+
       </div>
     )
   }

@@ -29,6 +29,7 @@ class CustomContainer extends Component {
         />
         <Ingredients 
         />
+        <br></br>
         {/* <div className="buttonOrder">
           <button type='button' onClick={this.showModal}> Añadir Pedido </button>
         </div> */}
