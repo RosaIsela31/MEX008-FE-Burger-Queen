@@ -14,10 +14,12 @@ class Orders extends Component{
             </p>  
             <p>
              {localStorage.getItem('gula')}
-            </p>          
+
+            </p>  
             <p>
-            {localStorage.getItem('extras')}   
-            </p>
+             {localStorage.getItem('extra')}
+            </p>         
+
             </div>
             
             <figure>

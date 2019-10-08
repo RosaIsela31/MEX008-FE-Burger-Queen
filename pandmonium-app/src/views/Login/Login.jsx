@@ -48,6 +48,8 @@ class Login extends React.Component{
      const {email, password} = this.state;
 
     return(
+      <div className='login-container'>
+
       <Fragment >
         <div className='content'>
           <img alt='logo-pandmonium' src={Logo} className='logo-logo'/>
@@ -67,6 +69,7 @@ class Login extends React.Component{
          
         </div>
       </Fragment>
+      </div>
     )
   }
 }

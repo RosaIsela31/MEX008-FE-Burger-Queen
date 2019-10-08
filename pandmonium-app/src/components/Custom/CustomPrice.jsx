@@ -3,6 +3,8 @@ import hamburger from '../../../src/assets/img/hamburger.png';
 import './style.scss';
 
 
+import hamburger from '../../assets/img/hamburger.png';
+
 class CustomPrice extends Component {
 
   handleChecket = (e) => {
@@ -18,8 +20,8 @@ class CustomPrice extends Component {
   render(){
     return(
       <div className="price-custom">
-        <figure className="cuadro">
-          <img className="iconFood"  src={hamburger} alt="#"/>
+        <figure className='figure-custom'>
+          <img src={hamburger} alt="#"/>
         </figure>
         <div className="option-price">
           {/* <p>{this.props.data.classic}</p>

@@ -10,8 +10,13 @@ render (){
     return (
     <section>
         <Sidebar />
+        <div className='container-white'>
+        <div  className='tables-container'>
         <h1 className="title">Mesas</h1>
+        <p>Selecciona la mesa que estás atendiendo</p>
+        </div>
         <AllTables />
+        </div>
     </section>
     );
 

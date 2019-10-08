@@ -29,11 +29,11 @@ class TableList extends React.Component{
        if(this.state.changeColorGreen){
            return(
                <Link to='/Menu' >
-               <button 
+               <button className='single-table'
                id={this.props.number} 
             // style={{backgroundColor: (this.state.changeColorGreen) ? '#C4C4C4' : "#42FF00"}}
             //    onClick={this.changeColor}
-               style={{backgroundColor: (this.state.changeColorGreen) ? '#C4C4C4' : "#42FF00"}}
+               style={{backgroundColor: (this.state.changeColorGreen) ? 'white' : "#42FF00"}}
               onClick={this.changeColor}
                >
               {this.props.number}
