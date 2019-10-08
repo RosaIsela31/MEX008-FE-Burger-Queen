@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
 import Modal from '../Modal/Modal';
 import './style.scss';
-import {Link} from 'react-router-dom';
+
 
 
 class BtnCustomOrder extends Component {
