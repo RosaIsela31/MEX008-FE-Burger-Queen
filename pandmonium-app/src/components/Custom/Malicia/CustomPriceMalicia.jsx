@@ -1,19 +1,18 @@
 import React, { Component } from 'react';
-import hamburger from '../../../src/assets/img/hamburger.png';
-import './style.scss';
+import '../style.scss';
 
+import hamburger from '../../../assets/img/hamburger.png';
 
+class CustomPriceMalicia extends Component {
 
-class CustomPrice extends Component {
-
-  handleChecket = (e) => {
+  handleChecketMalicia = (e) => {
     console.log(e.target.value);
     const election = e.target.value;
     let store = [];
      
     store.push(election);
 
-    localStorage.setItem('gula', JSON.stringify(store)); 
+    localStorage.setItem('malicia', JSON.stringify(store)); 
   }
 
   render(){
@@ -31,8 +30,8 @@ class CustomPrice extends Component {
                 name="check"
                 id="classic" 
                 type="radio" 
-                value="Gula classic" 
-                onChange={this.handleChecket}
+                value="Malicia classic" 
+                onChange={this.handleChecketMalicia}
             />
           </div>
           <div>
@@ -41,8 +40,8 @@ class CustomPrice extends Component {
                 name="check"
                 id="combo" 
                 type="radio" 
-                value="Gula combo" 
-                onChange={this.handleChecket}
+                value="Malicia combo" 
+                onChange={this.handleChecketMalicia}
             />
           </div>
 
@@ -52,4 +51,4 @@ class CustomPrice extends Component {
   }
 }
 
-export default CustomPrice;
+export default CustomPriceMalicia;

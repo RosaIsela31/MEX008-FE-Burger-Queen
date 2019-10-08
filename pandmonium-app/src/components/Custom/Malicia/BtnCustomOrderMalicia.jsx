@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
-import Modal from '../Modal/Modal';
-import './style.scss';
+import Modal from '../../Modal/Modal';
+import '../style.scss';
 
 
-class BtnCustomOrder extends Component {
+class BtnCustomOrderMalicia extends Component {
   state = { 
     show: false
   };
@@ -20,8 +20,7 @@ class BtnCustomOrder extends Component {
   render() {
     return(
       <div>
-        <div className="buttonOrder">
-
+        <div className="buttonOrderMalicia">
         <Link to={{pathname: './Menu'}}>
          <button className="buttonOrder" onClick={this.showModal} > Añadir Pedido </button>
         </Link>
@@ -34,7 +33,5 @@ class BtnCustomOrder extends Component {
   }
 }
 
-
-
-export default BtnCustomOrder;
+export default BtnCustomOrderMalicia;
 
