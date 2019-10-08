@@ -13,6 +13,7 @@ import Orders from '../views/OrderCarView/index';
 // import SodaView from '../views/MenuItemView/sodaview';
 // import MilkshakeView from '../views/MenuItemView/milkshakeview';
 import OrderCarView from '../components/orderCar/orderCarContainer';
+import CustomViewMalicia from '../views/CustonViews/CustomViewMalicia';
 
 class WhitRouter extends React.Component {
    render(){
@@ -36,8 +37,8 @@ class WhitRouter extends React.Component {
                 return(<Mesas/>)
            case '/gula':
                 return(<CustomView/>);
-          //  case '/ordenes':
-          //       return(<OrderCarView />)
+           case '/malicia':
+                return(<CustomViewMalicia />)
           case '/carrito':
                 return(<OrderCarView />)
            // case '/malteadas':
