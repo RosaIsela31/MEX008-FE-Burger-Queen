@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
+import hamburger from '../../../src/assets/img/hamburger.png';
 import './style.scss';
 
-import hamburger from '../../assets/img/hamburger.png';
+
 
 class CustomPrice extends Component {
 

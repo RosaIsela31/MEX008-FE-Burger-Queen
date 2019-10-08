@@ -21,6 +21,7 @@ class BtnCustomOrder extends Component {
     return(
       <div>
         <div className="buttonOrder">
+
         <Link to={{pathname: './Menu'}}>
          <button className="buttonOrder" onClick={this.showModal} > Añadir Pedido </button>
         </Link>
@@ -32,6 +33,8 @@ class BtnCustomOrder extends Component {
     )
   }
 }
+
+
 
 export default BtnCustomOrder;
 

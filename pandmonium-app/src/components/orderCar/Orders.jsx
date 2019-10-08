@@ -1,5 +1,4 @@
 import React,{Component} from 'react';
-import imgArrow from '../../assets/img/arrow111 (1).png'
 import imgTrash from '../../assets/img/trash.png'
 
 class Orders extends Component{
@@ -15,6 +14,7 @@ class Orders extends Component{
             </p>  
             <p>
              {localStorage.getItem('gula')}
+
             </p>  
             <p>
              {localStorage.getItem('extra')}
