@@ -1,4 +1,6 @@
-.customContainerPrincipal{
+.customContainerPrincipal,
+.customContainerPrincipalMalicia
+{
     display: flex;
     width: 300px;
     height: 80vh;
@@ -36,11 +38,26 @@ figure {
 
   .ingredientsOptions {
       display: flex;
-      flex-direction: column;     
-  }
+      flex-direction: column; 
+      font-family: 'Reem kufi';
+      font-size: 17px;  
+      box-shadow: 0px 2px 8px 7px rgba(77, 74, 74, 0.08);
+      border-radius: 10px;
+      padding-left: 2rem;
+      padding-bottom: 2rem;
+      margin-bottom: 2rem;
+      margin-top: 1rem;
+    }
 
-  .buttonOrder {
-      margin: 1rem auto;
+  .buttonOrder,
+  .buttonOrderMalicia
+   {
+        margin: 0% auto;
+        display: flex;
+        align-content: center;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
   }
 
   button {
@@ -50,9 +67,48 @@ figure {
       border: none;
       color: white;  
       font-family: 'Reem Kufi', sans-serif;   
-
+      
+  }
+  .cuadro {
+    display: flex;
+    color:black;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    margin: 1rem;
+    padding: 1rem;
+    width: 7rem;
+    height:7rem;
+    text-align:center;
+    font-family: 'Reem Kufi', sans-serif;
+    box-shadow: 0px 2px 8px 7px rgba(77, 74, 74, 0.2);
+  
+  }
+  
+  .iconFood{
+      display: flex;
+      padding-bottom: 0.3rem;
+      margin: 0 auto;
+      width: 60%;
   }
 
+.figure-custom{
+    display: flex;
+  color:black;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  margin: 1rem;
+  padding: 1rem;
+  width: 7rem;
+  height:7rem;
+  text-align:center;
+  font-family: 'Reem Kufi', sans-serif;
+  box-shadow: 0px 2px 8px 7px rgba(77, 74, 74, 0.2);
+  border-radius: 10%;
+}
 
 
 

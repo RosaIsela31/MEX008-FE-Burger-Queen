@@ -1,5 +1,4 @@
 import React,{Component} from 'react';
-import imgArrow from '../../assets/img/arrow111 (1).png'
 import imgTrash from '../../assets/img/trash.png'
 
 class Orders extends Component{
@@ -9,11 +8,32 @@ class Orders extends Component{
             <div>
             <h4>Pedidos</h4>
             <div  className = "orderContainer">
-            <div type = "text">  
-            <p>Mesa        
-             {localStorage.getItem('No_mesa')};
-             </p> 
+            <div type = "text" className="order-list">  
+            <p> Mesa: <br />
+             {localStorage.getItem('No_mesa')}
+            </p>  
+            <p>
              {localStorage.getItem('gula')}
+
+            </p>  
+            <p>
+             {localStorage.getItem('extra')}
+            </p>       
+            <p>
+             {localStorage.getItem('malicia')}
+            </p>  
+            <p>
+             {localStorage.getItem('soberbia')}
+            </p>
+            <p>
+             {localStorage.getItem('encamacion')}
+            </p>  
+            <p>
+             {localStorage.getItem('bananalimbo')}
+            </p>  
+            <p>
+             {localStorage.getItem('almaenpena')}
+            </p>  
             </div>
             
             <figure>

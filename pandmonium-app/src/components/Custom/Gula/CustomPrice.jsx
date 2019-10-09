@@ -1,44 +1,36 @@
 import React, { Component } from 'react';
-import './style.scss';
-//LocalStorage
-import '../LocalStorage/LocalStorage';
+import hamburger from '../../../../src/assets/img/hamburger.png';
+import '../style.scss';
+
+
 
 class CustomPrice extends Component {
 
   handleChecket = (e) => {
-    // console.log(e.target.value);
+    console.log(e.target.value);
     const election = e.target.value;
-    let store = [];
-    // console.log(localStorage);
-       if(localStorage.getItem(election) === null){
-         store = [];
-       }
-      //  else{
-      //    store = JSON.parse(localStorage.getItem(election));
-      //  }
-
-    store.push(election);
-
-    localStorage.setItem('gula', JSON.stringify(store)); 
-    // console.log(store);
+     
+    localStorage.setItem('gula', JSON.stringify(election)); 
   }
 
   render(){
     return(
       <div className="price-custom">
-        <figure>
-          <img src='../../assets/img/hamburger.png' alt="#"/>
+        <figure className='figure-custom'>
+          <img src={hamburger} alt="#"/>
         </figure>
         <div className="option-price">
-          {/* <p>{this.props.data.classic}</p>
-          <p>{this.props.data.combo}</p> */}
           <div>
             <label htmlFor="classic" name="check" >Classic</label>
             <input 
                 name="check"
                 id="classic" 
                 type="radio" 
+<<<<<<< HEAD:pandmonium-app/src/components/Custom/CustomPrice.jsx
                 value="Gula Classic" 
+=======
+                value="Gula classic" 
+>>>>>>> 259442525c1e94f6698046fa6ce3469775873509:pandmonium-app/src/components/Custom/Gula/CustomPrice.jsx
                 onChange={this.handleChecket}
             />
           </div>
@@ -48,7 +40,11 @@ class CustomPrice extends Component {
                 name="check"
                 id="combo" 
                 type="radio" 
+<<<<<<< HEAD:pandmonium-app/src/components/Custom/CustomPrice.jsx
                 value="Gula Combo" 
+=======
+                value="Gula combo" 
+>>>>>>> 259442525c1e94f6698046fa6ce3469775873509:pandmonium-app/src/components/Custom/Gula/CustomPrice.jsx
                 onChange={this.handleChecket}
             />
           </div>
