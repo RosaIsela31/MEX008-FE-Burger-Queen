@@ -25,6 +25,13 @@ import CustomViewHachiko from './CustonViews/CustomViewHachiko';
 import CustomViewPastorAleman from './CustonViews/CustomViewPastorAleman';
 import CustomViewDelirium from './CustonViews/CustomViewDelirium';
 import CustomViewParaisoPerdido from './CustonViews/CustomViewParaisoPerdido';
+import CustomViewChaneque from './CustonViews/CustomViewChaneque';
+import CustomViewSodoma from './CustonViews/CustomViewSodoma';
+import CustomViewLujuria from './CustonViews/CustomViewLujuria';
+import CustomViewAngelCaido from './CustonViews/CustomViewAngelCaido';
+import CustomViewPurgatorio from './CustonViews/CustomViewPurgatorio';
+import CustomViewTikiHawaiana from './CustonViews/CustomViewTikiHawaiana';
+import CustomViewMargarita from './CustonViews/CustomViewMargarita';
 
 
 class WhitRouter extends React.Component {
@@ -75,6 +82,20 @@ class WhitRouter extends React.Component {
                 return(<CustomViewDelirium />)
            case '/paraiso-perdido':
                 return(<CustomViewParaisoPerdido />)
+           case '/chaneque':
+                return(<CustomViewChaneque />)
+           case '/sodoma':
+                return(<CustomViewSodoma />)
+           case '/lujuria':
+                return(<CustomViewLujuria />)
+           case '/angel-caido':
+                return(<CustomViewAngelCaido />)
+           case '/purgatorio':
+                return(<CustomViewPurgatorio />)
+           case '/tiki-hawaiana':
+                return(<CustomViewTikiHawaiana />)
+           case '/margarita':
+                return(<CustomViewMargarita />)
            // case '/malteadas':
            //     return(<MilkshakeView />)
            default:

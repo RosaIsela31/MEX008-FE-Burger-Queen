@@ -24,7 +24,15 @@ class Orders extends Component{
              {localStorage.getItem('hachiko')} <br/>
              {localStorage.getItem('pastoraleman')} <br/>
              {localStorage.getItem('delirium')} <br/>
-             {localStorage.getItem('paraisoperdido')} 
+             {localStorage.getItem('paraisoperdido')} <br/>
+             {localStorage.getItem('chaneque')} <br/>
+             {localStorage.getItem('sodoma')} <br/>
+             {localStorage.getItem('lujuria')} <br/>
+             {localStorage.getItem('angelcaido')} <br/>
+             {localStorage.getItem('purgatorio')} <br/>
+             {localStorage.getItem('tikihawaiana')} <br/>
+             {localStorage.getItem('margarita')} <br/>
+
             </div>
             
             <figure>
