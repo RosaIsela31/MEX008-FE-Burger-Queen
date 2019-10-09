@@ -3,7 +3,6 @@ import hamburger from '../../../../src/assets/img/hamburger.png';
 import '../style.scss';
 
 
-
 class CustomPrice extends Component {
 
   handleChecket = (e) => {
