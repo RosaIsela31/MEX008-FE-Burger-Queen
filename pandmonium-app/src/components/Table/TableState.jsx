@@ -12,15 +12,8 @@ class TableList extends React.Component{
 
     this.setState({ show: true });
        const id = x.target.id;
-       console.log('id', id);
 
-       let store = [];
-       if(localStorage.getItem(id) === null){
-           store = [];
-       }
-       
-       store.push(id);
-       localStorage.setItem('No_mesa', JSON.stringify(store) );
+       localStorage.setItem('No_mesa', JSON.stringify(id) );
     
     //    this.setState({changeColorGreen: !this.state.changeColorGreen})
       
