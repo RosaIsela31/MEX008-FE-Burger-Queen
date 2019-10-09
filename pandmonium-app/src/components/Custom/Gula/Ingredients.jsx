@@ -22,35 +22,38 @@ class Ingredients extends Component {
           Germinado de alfalfa <br/> 
           Pepinillos
         </p>
-        <label htmlFor="Hawaiana" name="hawaiana" >Vuélvela Hawaiana + $20
-            <input 
-                name="hawaiana"
-                id="hawaiana" 
-                type="radio" 
-                value="Vuelvela Hawaiana" 
-                onChange={this.handleChecket}
-            />
-        </label>
+        <div class="extra-container">
 
-        <label htmlFor="Americano" name="americano" >Queso tipo Americano + $15
-            <input 
-                name="americano"
-                id="hawaiana" 
-                type="radio" 
-                value="Queso tipo Americano" 
-                onChange={this.handleChecket}
-            />
-        </label>
-        
-        <label htmlFor="Papa" name="quesopapa" >Queso de Papa + $10
-            <input 
-                name="quesopapa"
-                id="quesopapa" 
-                type="radio" 
-                value="Queso de Papa" 
-                onChange={this.handleChecket}
-            />
-        </label>
+          <label htmlFor="Hawaiana" name="hawaiana" >Vuélvela Hawaiana <br/>+ $20
+              <input 
+                  name="hawaiana"
+                  id="hawaiana" 
+                  type="radio" 
+                  value="Vuelvela Hawaiana" 
+                  onChange={this.handleChecket}
+              />
+          </label>
+
+          <label htmlFor="Americano" name="americano" >Queso tipo Americano <br/>+ $15
+              <input 
+                  name="americano"
+                  id="hawaiana" 
+                  type="radio" 
+                  value="Queso tipo Americano" 
+                  onChange={this.handleChecket}
+              />
+          </label>
+          
+          <label htmlFor="Papa" name="quesopapa" >Queso de Papa <br/>+ $10
+              <input 
+                  name="quesopapa"
+                  id="quesopapa" 
+                  type="radio" 
+                  value="Queso de Papa" 
+                  onChange={this.handleChecket}
+              />
+          </label>
+        </div>
 
       </div>
     )
