@@ -8,7 +8,7 @@
     font-family: 'Reem Kufi', sans-serif;
     font-size: 1rem;
     font-weight: bold;
-    margin: auto;
+    margin: 4rem auto;
 }
 .price-custom {
     display: flex;
@@ -34,6 +34,10 @@ figure {
     text-align:center;
     box-shadow: 0px 2px 8px 7px rgba(77, 74, 74, 0.2);
   
+  }
+
+  .option-price {
+    text-align: center;
   }
 
   .ingredientsOptions {
@@ -67,11 +71,18 @@ figure {
   
   }
 
+ #chica, #mediana, #grande {
+  transform: scale(2);
+  margin:0.5rem auto;
+    display: flex;
+    justify-content: flex-end;
+ }
+
   .extra-container {
     display: flex;
   }
 
-  .extra-container label {
+  .extra-container label, {
     display: flex;
     flex-direction: column;
     text-align: center;
