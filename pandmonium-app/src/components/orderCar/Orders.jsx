@@ -9,8 +9,11 @@ class Orders extends Component{
             <div>
             <h4>Pedidos</h4>
             <div  className = "orderContainer">
-            <div type = "text">              
-             {localStorage.getItem('No_mesa')}
+            <div type = "text">  
+            <p>Mesa        
+             {localStorage.getItem('No_mesa')};
+             </p> 
+             {localStorage.getItem('gula')}
             </div>
             
             <figure>

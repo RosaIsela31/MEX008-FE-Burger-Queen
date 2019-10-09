@@ -38,7 +38,7 @@ class CustomPrice extends Component {
                 name="check"
                 id="classic" 
                 type="radio" 
-                value="classic" 
+                value="Gula Classic" 
                 onChange={this.handleChecket}
             />
           </div>
@@ -48,7 +48,7 @@ class CustomPrice extends Component {
                 name="check"
                 id="combo" 
                 type="radio" 
-                value="combo" 
+                value="Gula Combo" 
                 onChange={this.handleChecket}
             />
           </div>
