@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
+import hamburger from '../../../../src/assets/img/hamburger.png';
 import '../style.scss';
 
-import hamburger from '../../../assets/img/hamburger.png';
 
-class CustomPriceMalicia extends Component {
+class CustomPrice extends Component {
 
-  handleChecketMalicia = (e) => {
+  handleChecket = (e) => {
     console.log(e.target.value);
     const election = e.target.value;
      
-    localStorage.setItem('malicia', JSON.stringify(election)); 
+    localStorage.setItem('gula', JSON.stringify(election)); 
   }
 
   render(){
@@ -19,16 +19,14 @@ class CustomPriceMalicia extends Component {
           <img src={hamburger} alt="#"/>
         </figure>
         <div className="option-price">
-          {/* <p>{this.props.data.classic}</p>
-          <p>{this.props.data.combo}</p> */}
           <div>
             <label htmlFor="classic" name="check" >Classic</label>
             <input 
                 name="check"
                 id="classic" 
                 type="radio" 
-                value="Malicia classic" 
-                onChange={this.handleChecketMalicia}
+                value="Gula classic" 
+                onChange={this.handleChecket}
             />
           </div>
           <div>
@@ -37,8 +35,8 @@ class CustomPriceMalicia extends Component {
                 name="check"
                 id="combo" 
                 type="radio" 
-                value="Malicia combo" 
-                onChange={this.handleChecketMalicia}
+                value="Gula combo" 
+                onChange={this.handleChecket}
             />
           </div>
 
@@ -48,4 +46,4 @@ class CustomPriceMalicia extends Component {
   }
 }
 
-export default CustomPriceMalicia;
+export default CustomPrice;

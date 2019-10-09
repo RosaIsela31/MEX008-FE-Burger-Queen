@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import CustomContainer from '../../components/Custom/CustomContainer';
+import CustomContainer from '../../components/Custom/Gula/CustomContainer';
 import Sidebar from '../../components/sidebar/Sidebar';
 import DataMenu from '../../components/Menu/data.json';
 

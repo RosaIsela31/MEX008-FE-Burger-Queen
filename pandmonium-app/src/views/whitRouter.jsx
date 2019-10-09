@@ -14,6 +14,11 @@ import CustomView from '../views/CustonViews/index';
 // import MilkshakeView from '../views/MenuItemView/milkshakeview';
 import OrderCarView from '../components/orderCar/orderCarContainer';
 import CustomViewMalicia from '../views/CustonViews/CustomViewMalicia';
+import CustomViewSoberbia from '../views/CustonViews/CustomViewSoberbia';
+import CustomViewAlmaEnPena from '../views/CustonViews/CustomViewAlmaEnPena';
+import CustomViewEncarnacion from './CustonViews/CustomViewEncarnacion';
+import CustomViewBananaLimbo from './CustonViews/CustomViewBananaLimbo';
+
 
 class WhitRouter extends React.Component {
    render(){
@@ -39,8 +44,16 @@ class WhitRouter extends React.Component {
                 return(<CustomView/>);
            case '/malicia':
                 return(<CustomViewMalicia />)
-          case '/carrito':
+           case '/soberbia':
+                return(<CustomViewSoberbia />)
+           case '/encarnacion':
+                return(<CustomViewEncarnacion />)
+           case '/alma-en-pena':
+                return(<CustomViewAlmaEnPena />)
+           case '/carrito':
                 return(<OrderCarView />)
+           case '/banana-limbo':
+                return(<CustomViewBananaLimbo />)
            // case '/malteadas':
            //     return(<MilkshakeView />)
            default:

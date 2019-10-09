@@ -1,16 +1,13 @@
 import React, { Component } from "react";
-import './style.scss';
+import '../style.scss';
 //import CheckBox from './CheckBox';
 
 class Ingredients extends Component {
   handleChecket = (e) => {
     console.log(e.target.value);
     const checked = e.target.value;
-    let store = [];
- 
-    store.push(checked);
 
-    localStorage.setItem('extra', JSON.stringify(store)); 
+    localStorage.setItem('extra', JSON.stringify(checked)); 
   }
 
   render(){
