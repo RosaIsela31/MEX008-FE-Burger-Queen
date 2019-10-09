@@ -26,7 +26,7 @@ class Orders extends Component{
              {localStorage.getItem('soberbia')}
             </p>
             <p>
-             {localStorage.getItem('encamacion')}
+             {localStorage.getItem('encarnacion')}
             </p>  
             <p>
              {localStorage.getItem('bananalimbo')}
