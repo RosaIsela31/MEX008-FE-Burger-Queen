@@ -26,7 +26,7 @@ class App extends Component {
                 <Switch>
                     
                      <Route exact path={this.state.routes.route} component={WhitRouter} />
-                    {/*<Route exact path={this.state.routes.route} component={Prueba2}/>*/}
+                
                    
                     <Route exact path='/menu' component={Menu} />
                     <Route exact path='/todos' component={Todos} />

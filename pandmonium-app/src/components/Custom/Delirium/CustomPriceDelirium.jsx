@@ -22,26 +22,15 @@ class CustomPriceDelirium extends Component {
           {/* <p>{this.props.data.classic}</p>
           <p>{this.props.data.combo}</p> */}
           <div>
-            <label htmlFor="classic" name="check" >Sencilla</label>
+            <label htmlFor="classic" name="check" >Delirium</label>
             <input 
                 name="check"
                 id="classic" 
                 type="radio" 
-                value="Delirium sencilla" 
+                value="Delirium" 
                 onChange={this.handleChecketDelirium}
             />
           </div>
-          <div>
-            <label htmlFor="combo" name="check" >Combo</label>
-            <input 
-                name="check"
-                id="combo" 
-                type="radio" 
-                value="Delirium combo" 
-                onChange={this.handleChecketDelirium}
-            />
-          </div>
-
         </div>
       </div>
     )

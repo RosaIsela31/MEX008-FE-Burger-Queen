@@ -22,26 +22,15 @@ class CustomPriceParaisoPerdido extends Component {
           {/* <p>{this.props.data.classic}</p>
           <p>{this.props.data.combo}</p> */}
           <div>
-            <label htmlFor="classic" name="check" >Sencilla</label>
+            <label htmlFor="classic" name="check" >Paraíso Perdido</label>
             <input 
                 name="check"
                 id="classic" 
                 type="radio" 
-                value="Paraiso Perdido sencilla" 
+                value="Paraiso Perdido" 
                 onChange={this.handleChecketParaisoPerdido}
             />
           </div>
-          <div>
-            <label htmlFor="combo" name="check" >Combo</label>
-            <input 
-                name="check"
-                id="combo" 
-                type="radio" 
-                value="Paraiso Perdido combo" 
-                onChange={this.handleChecketParaisoPerdido}
-            />
-          </div>
-
         </div>
       </div>
     )
