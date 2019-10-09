@@ -9,6 +9,7 @@ import DessertView from '../views/MenuItemView/dessertview';
 import Login from '../views/Login/Login';
 import Mesas from '../views/TableSelectorView/index'
 import CustomView from '../views/CustonViews/index';
+import Error404 from '../views/Page404/index';
 // import Orders from '../views/OrderCarView/index';
 // import SodaView from '../views/MenuItemView/sodaview';
 // import MilkshakeView from '../views/MenuItemView/milkshakeview';
@@ -111,7 +112,7 @@ class WhitRouter extends React.Component {
            // case '/malteadas':
            //     return(<MilkshakeView />)
            default:
-               return (<p>404</p>)
+               return (<Error404 />)
        }
    }
 }
