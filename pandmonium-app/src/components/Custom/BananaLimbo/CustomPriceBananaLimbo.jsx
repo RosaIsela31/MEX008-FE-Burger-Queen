@@ -3,13 +3,13 @@ import '../style.scss';
 
 import hamburger from '../../../assets/img/hamburger.png';
 
-class CustomPriceMalicia extends Component {
+class CustomPriceBananaLimbo extends Component {
 
-  handleChecketMalicia = (e) => {
+  handleChecketBananaLimbo = (e) => {
     console.log(e.target.value);
     const election = e.target.value;
      
-    localStorage.setItem('malicia', JSON.stringify(election)); 
+    localStorage.setItem('bananalimbo', JSON.stringify(election)); 
   }
 
   render(){
@@ -27,8 +27,8 @@ class CustomPriceMalicia extends Component {
                 name="check"
                 id="classic" 
                 type="radio" 
-                value="Malicia classic" 
-                onChange={this.handleChecketMalicia}
+                value="Banana Limbo classic" 
+                onChange={this.handleChecketBananaLimbo}
             />
           </div>
           <div>
@@ -37,8 +37,8 @@ class CustomPriceMalicia extends Component {
                 name="check"
                 id="combo" 
                 type="radio" 
-                value="Malicia combo" 
-                onChange={this.handleChecketMalicia}
+                value="Banana Limbo combo" 
+                onChange={this.handleChecketBananaLimbo}
             />
           </div>
 
@@ -48,4 +48,4 @@ class CustomPriceMalicia extends Component {
   }
 }
 
-export default CustomPriceMalicia;
+export default CustomPriceBananaLimbo;
