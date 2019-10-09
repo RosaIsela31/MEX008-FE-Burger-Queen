@@ -9,31 +9,21 @@ class Orders extends Component{
             <h4>Pedidos</h4>
             <div  className = "orderContainer">
             <div type = "text" className="order-list">  
-            <p> Mesa: <br />
-             {localStorage.getItem('No_mesa')}
-            </p>  
-            <p>
-             {localStorage.getItem('gula')}
+            <p> Mesa: <br /> </p>  
+             {localStorage.getItem('No_mesa')} <br/> 
+             {localStorage.getItem('gula')} <br/>
+             {localStorage.getItem('extra')} <br/>
+             {localStorage.getItem('malicia')} <br/>  
+             {localStorage.getItem('soberbia')} <br/>    
+             {localStorage.getItem('encamacion')} <br/>       
+             {localStorage.getItem('bananalimbo')} <br/>    
+             {localStorage.getItem('encamacion')} <br/> 
+             {localStorage.getItem('jochoslaw')} <br/> 
+             {localStorage.getItem('xoloescuintle')} <br/>
+             {localStorage.getItem('pitbull')} <br/>  
+             {localStorage.getItem('hachiko')} <br/>
+             {localStorage.getItem('pastoraleman')}  
 
-            </p>  
-            <p>
-             {localStorage.getItem('extra')}
-            </p>       
-            <p>
-             {localStorage.getItem('malicia')}
-            </p>  
-            <p>
-             {localStorage.getItem('soberbia')}
-            </p>
-            <p>
-             {localStorage.getItem('encamacion')}
-            </p>  
-            <p>
-             {localStorage.getItem('bananalimbo')}
-            </p>  
-            <p>
-             {localStorage.getItem('almaenpena')}
-            </p>  
             </div>
             
             <figure>
@@ -42,7 +32,6 @@ class Orders extends Component{
                 </button>
             </figure>
             </div>
-            {/* -------------------------- */}
             </div>
         );
     }

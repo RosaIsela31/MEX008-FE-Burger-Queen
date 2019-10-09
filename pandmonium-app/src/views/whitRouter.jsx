@@ -18,6 +18,11 @@ import CustomViewSoberbia from '../views/CustonViews/CustomViewSoberbia';
 import CustomViewAlmaEnPena from '../views/CustonViews/CustomViewAlmaEnPena';
 import CustomViewEncarnacion from './CustonViews/CustomViewEncarnacion';
 import CustomViewBananaLimbo from './CustonViews/CustomViewBananaLimbo';
+import CustomViewJochoslaw from './CustonViews/CustomViewJochoslaw';
+import CustomViewXoloescuintle from './CustonViews/CustomViewXoloescuintle';
+import CustomViewPitBull from './CustonViews/CustomViewPitBull';
+import CustomViewHachiko from './CustonViews/CustomViewHachiko';
+import CustomViewPastorAleman from './CustonViews/CustomViewPastorAleman';
 
 
 class WhitRouter extends React.Component {
@@ -54,6 +59,16 @@ class WhitRouter extends React.Component {
                 return(<OrderCarView />)
            case '/banana-limbo':
                 return(<CustomViewBananaLimbo />)
+           case '/jochoslaw':
+                return(<CustomViewJochoslaw />)
+           case '/xoloescuintle':
+                return(<CustomViewXoloescuintle />)
+           case '/pitbull':
+                return(<CustomViewPitBull />)
+           case '/hachiko':
+                return(<CustomViewHachiko />)
+           case '/pastor-aleman':
+                return(<CustomViewPastorAleman />)
            // case '/malteadas':
            //     return(<MilkshakeView />)
            default:

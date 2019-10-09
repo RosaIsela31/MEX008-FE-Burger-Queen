@@ -4,7 +4,7 @@ import Modal from '../../Modal/Modal';
 import '../style.scss';
 
 
-class BtnCustomOrderMalicia extends Component {
+class BtnCustomOrderHachiko extends Component {
   state = { 
     show: false
   };
@@ -33,5 +33,5 @@ class BtnCustomOrderMalicia extends Component {
   }
 }
 
-export default BtnCustomOrderMalicia;
+export default BtnCustomOrderHachiko;
 
