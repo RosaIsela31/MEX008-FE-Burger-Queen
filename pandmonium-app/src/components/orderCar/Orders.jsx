@@ -15,15 +15,16 @@ class Orders extends Component{
              {localStorage.getItem('extra')} <br/>
              {localStorage.getItem('malicia')} <br/>  
              {localStorage.getItem('soberbia')} <br/>    
-             {localStorage.getItem('encamacion')} <br/>       
+             {localStorage.getItem('encarnacion')} <br/>       
              {localStorage.getItem('bananalimbo')} <br/>    
              {localStorage.getItem('encamacion')} <br/> 
              {localStorage.getItem('jochoslaw')} <br/> 
              {localStorage.getItem('xoloescuintle')} <br/>
              {localStorage.getItem('pitbull')} <br/>  
              {localStorage.getItem('hachiko')} <br/>
-             {localStorage.getItem('pastoraleman')}  
-
+             {localStorage.getItem('pastoraleman')} <br/>
+             {localStorage.getItem('delirium')} <br/>
+             {localStorage.getItem('paraisoperdido')} 
             </div>
             
             <figure>

@@ -23,6 +23,8 @@ import CustomViewXoloescuintle from './CustonViews/CustomViewXoloescuintle';
 import CustomViewPitBull from './CustonViews/CustomViewPitBull';
 import CustomViewHachiko from './CustonViews/CustomViewHachiko';
 import CustomViewPastorAleman from './CustonViews/CustomViewPastorAleman';
+import CustomViewDelirium from './CustonViews/CustomViewDelirium';
+import CustomViewParaisoPerdido from './CustonViews/CustomViewParaisoPerdido';
 
 
 class WhitRouter extends React.Component {
@@ -69,6 +71,10 @@ class WhitRouter extends React.Component {
                 return(<CustomViewHachiko />)
            case '/pastor-aleman':
                 return(<CustomViewPastorAleman />)
+           case '/delirium':
+                return(<CustomViewDelirium />)
+           case '/paraiso-perdido':
+                return(<CustomViewParaisoPerdido />)
            // case '/malteadas':
            //     return(<MilkshakeView />)
            default:
