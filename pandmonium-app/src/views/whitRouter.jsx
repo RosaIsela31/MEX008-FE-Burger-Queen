@@ -32,6 +32,10 @@ import CustomViewAngelCaido from './CustonViews/CustomViewAngelCaido';
 import CustomViewPurgatorio from './CustonViews/CustomViewPurgatorio';
 import CustomViewTikiHawaiana from './CustonViews/CustomViewTikiHawaiana';
 import CustomViewMargarita from './CustonViews/CustomViewMargarita';
+import CustomViewMousse from './CustonViews/CustomViewMousse';
+import CustomViewVegatina from './CustonViews/CustomViewVegatina';
+import CustomViewHellGirl from './CustonViews/CustomViewHellGirl';
+import CustomViewPan from './CustonViews/CustomViewPan';
 
 
 class WhitRouter extends React.Component {
@@ -96,6 +100,14 @@ class WhitRouter extends React.Component {
                 return(<CustomViewTikiHawaiana />)
            case '/margarita':
                 return(<CustomViewMargarita />)
+           case '/mousse':
+                return(<CustomViewMousse />)
+           case '/vegatina':
+                return(<CustomViewVegatina />)
+           case '/hell-girl':
+                return(<CustomViewHellGirl />)
+           case '/pan-dulce':
+                    return(<CustomViewPan />)           
            // case '/malteadas':
            //     return(<MilkshakeView />)
            default:
