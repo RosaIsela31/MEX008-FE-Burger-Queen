@@ -1,19 +1,16 @@
 import React, { Component } from 'react';
-import hamburger from '../../../src/assets/img/hamburger.png';
-import './style.scss';
+import '../style.scss';
 
+import hamburger from '../../../assets/img/hamburger.png';
 
+class CustomPriceSoberbia extends Component {
 
-class CustomPrice extends Component {
-
-  handleChecket = (e) => {
+  handleChecketSoberbia = (e) => {
     console.log(e.target.value);
     const election = e.target.value;
-    let store = [];
      
-    store.push(election);
 
-    localStorage.setItem('gula', JSON.stringify(store)); 
+    localStorage.setItem('soberbia', JSON.stringify(election)); 
   }
 
   render(){
@@ -31,8 +28,8 @@ class CustomPrice extends Component {
                 name="check"
                 id="classic" 
                 type="radio" 
-                value="Gula classic" 
-                onChange={this.handleChecket}
+                value="Soberbia classic" 
+                onChange={this.handleChecketSoberbia}
             />
           </div>
           <div>
@@ -41,8 +38,8 @@ class CustomPrice extends Component {
                 name="check"
                 id="combo" 
                 type="radio" 
-                value="Gula combo" 
-                onChange={this.handleChecket}
+                value="Soberbia combo" 
+                onChange={this.handleChecketSoberbia}
             />
           </div>
 
@@ -52,4 +49,4 @@ class CustomPrice extends Component {
   }
 }
 
-export default CustomPrice;
+export default CustomPriceSoberbia;
