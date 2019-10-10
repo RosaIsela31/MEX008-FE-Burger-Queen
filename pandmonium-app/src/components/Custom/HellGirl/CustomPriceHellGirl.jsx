@@ -22,7 +22,7 @@ class CustomPriceHellGirl extends Component {
           {/* <p>{this.props.data.classic}</p>
           <p>{this.props.data.combo}</p> */}
           <div>
-            <label htmlFor="classic" name="check" >$ 50</label>
+            <label htmlFor="classic" name="check" >Hell girl</label>
             <input 
                 name="check"
                 id="classic" 

@@ -73,6 +73,42 @@ class WhitRouter extends React.Component {
                 return(<OrderCarView />)
            case '/banana-limbo':
                 return(<CustomViewBananaLimbo />)
+           case '/jochoslaw':
+                return(<CustomViewJochoslaw />)
+           case '/xoloescuintle':
+                return(<CustomViewXoloescuintle />)
+           case '/pitbull':
+                return(<CustomViewPitBull />)
+           case '/hachiko':
+                return(<CustomViewHachiko />)
+           case '/pastor-aleman':
+                return(<CustomViewPastorAleman />)
+           case '/delirium':
+                return(<CustomViewDelirium />)
+           case '/paraiso-perdido':
+                return(<CustomViewParaisoPerdido />)
+           case '/chaneque':
+                return(<CustomViewChaneque />)
+           case '/sodoma':
+                return(<CustomViewSodoma />)
+           case '/lujuria':
+                return(<CustomViewLujuria />)
+           case '/angel-caido':
+                return(<CustomViewAngelCaido />)
+           case '/purgatorio':
+                return(<CustomViewPurgatorio />)
+           case '/tiki-hawaiana':
+                return(<CustomViewTikiHawaiana />)
+           case '/margarita':
+                return(<CustomViewMargarita />)
+           case '/mousse':
+                return(<CustomViewMousse />)
+           case '/vegatina':
+                return(<CustomViewVegatina />)
+           case '/hell-girl':
+                return(<CustomViewHellGirl />)
+           case '/pan-dulce':
+                return(<CustomViewPan />)                                     
            case '/malteadas':
                return(<CustomMilkshake />)
            case '/soda':
