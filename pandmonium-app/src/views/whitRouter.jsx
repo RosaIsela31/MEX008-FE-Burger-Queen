@@ -11,8 +11,8 @@ import Mesas from '../views/TableSelectorView/index'
 import CustomView from '../views/CustonViews/index';
 import Error404 from '../views/Page404/index';
 // import Orders from '../views/OrderCarView/index';
-// import SodaView from '../views/MenuItemView/sodaview';
-// import MilkshakeView from '../views/MenuItemView/milkshakeview';
+import CustomSodas from '../views/MenuItemView/sodasview';
+import CustomMilkshake from '../views/MenuItemView/milkshakeview';
 import OrderCarView from '../components/orderCar/orderCarContainer';
 import CustomViewMalicia from '../views/CustonViews/CustomViewMalicia';
 import CustomViewSoberbia from '../views/CustonViews/CustomViewSoberbia';
@@ -73,44 +73,10 @@ class WhitRouter extends React.Component {
                 return(<OrderCarView />)
            case '/banana-limbo':
                 return(<CustomViewBananaLimbo />)
-           case '/jochoslaw':
-                return(<CustomViewJochoslaw />)
-           case '/xoloescuintle':
-                return(<CustomViewXoloescuintle />)
-           case '/pitbull':
-                return(<CustomViewPitBull />)
-           case '/hachiko':
-                return(<CustomViewHachiko />)
-           case '/pastor-aleman':
-                return(<CustomViewPastorAleman />)
-           case '/delirium':
-                return(<CustomViewDelirium />)
-           case '/paraiso-perdido':
-                return(<CustomViewParaisoPerdido />)
-           case '/chaneque':
-                return(<CustomViewChaneque />)
-           case '/sodoma':
-                return(<CustomViewSodoma />)
-           case '/lujuria':
-                return(<CustomViewLujuria />)
-           case '/angel-caido':
-                return(<CustomViewAngelCaido />)
-           case '/purgatorio':
-                return(<CustomViewPurgatorio />)
-           case '/tiki-hawaiana':
-                return(<CustomViewTikiHawaiana />)
-           case '/margarita':
-                return(<CustomViewMargarita />)
-           case '/mousse':
-                return(<CustomViewMousse />)
-           case '/vegatina':
-                return(<CustomViewVegatina />)
-           case '/hell-girl':
-                return(<CustomViewHellGirl />)
-           case '/pan-dulce':
-                    return(<CustomViewPan />)           
-           // case '/malteadas':
-           //     return(<MilkshakeView />)
+           case '/malteadas':
+               return(<CustomMilkshake />)
+           case '/soda':
+               return(<CustomSodas />)
            default:
                return (<Error404 />)
        }
