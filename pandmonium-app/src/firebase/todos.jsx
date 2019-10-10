@@ -7,7 +7,7 @@ export default class Todos extends Component {
 state ={
     items:[],
     inputValue:'',
- //para saber lo que estamos editando y es falso porque no iniciamos editando algo, por lo tanto es falso. El id del documento editado se guarda.  
+ //para saber lo que estamos editando, inicialmente es falso porque no iniciamos editando algo. El id del documento editado se guarda.  
     edit:false,
     id:'',
     fadeIn:false,
