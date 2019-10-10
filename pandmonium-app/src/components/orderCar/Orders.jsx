@@ -36,7 +36,13 @@ class Orders extends Component{
              {localStorage.getItem('mousse')} <br/>
              {localStorage.getItem('vegatina')} <br/>
              {localStorage.getItem('hellgirl')} <br/>
-             {localStorage.getItem('pan')} <br/>
+             {localStorage.getItem('mazapan')} <br/>
+             {localStorage.getItem('fresa')} <br/>
+             {localStorage.getItem('chocomenta')} <br/>
+             {localStorage.getItem('piñacoco')} <br/>
+             {localStorage.getItem('maracuya')} <br/>
+             {localStorage.getItem('mango')} <br/>
+
             </div>
             
             <figure>

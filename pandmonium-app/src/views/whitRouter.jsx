@@ -11,8 +11,8 @@ import Mesas from '../views/TableSelectorView/index'
 import CustomView from '../views/CustonViews/index';
 import Error404 from '../views/Page404/index';
 // import Orders from '../views/OrderCarView/index';
-// import SodaView from '../views/MenuItemView/sodaview';
-// import MilkshakeView from '../views/MenuItemView/milkshakeview';
+import CustomSodas from '../views/MenuItemView/sodasview';
+import CustomMilkshake from '../views/MenuItemView/milkshakeview';
 import OrderCarView from '../components/orderCar/orderCarContainer';
 import CustomViewMalicia from '../views/CustonViews/CustomViewMalicia';
 import CustomViewSoberbia from '../views/CustonViews/CustomViewSoberbia';
@@ -76,7 +76,7 @@ class WhitRouter extends React.Component {
            case '/malteadas':
                return(<CustomMilkshake />)
            case '/soda':
-               return(<SodaView/>)
+               return(<CustomSodas />)
            default:
                return (<Error404 />)
        }
