@@ -23,12 +23,7 @@ class TableList extends React.Component{
        store.push(id);
        localStorage.setItem('No_mesa', JSON.stringify(store) );
     
-<<<<<<< HEAD
-       this.setState({changeColorGreen: !this.state.changeColorGreen})
-
-=======
     //    this.setState({changeColorGreen: !this.state.changeColorGreen})
->>>>>>> 259442525c1e94f6698046fa6ce3469775873509
       
    }
    render(){

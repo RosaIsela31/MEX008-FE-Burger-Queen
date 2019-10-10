@@ -26,11 +26,7 @@ class CustomPrice extends Component {
                 name="check"
                 id="classic" 
                 type="radio" 
-<<<<<<< HEAD:pandmonium-app/src/components/Custom/CustomPrice.jsx
-                value="Gula Classic" 
-=======
                 value="Gula classic" 
->>>>>>> 259442525c1e94f6698046fa6ce3469775873509:pandmonium-app/src/components/Custom/Gula/CustomPrice.jsx
                 onChange={this.handleChecket}
             />
           </div>
@@ -40,11 +36,7 @@ class CustomPrice extends Component {
                 name="check"
                 id="combo" 
                 type="radio" 
-<<<<<<< HEAD:pandmonium-app/src/components/Custom/CustomPrice.jsx
-                value="Gula Combo" 
-=======
                 value="Gula combo" 
->>>>>>> 259442525c1e94f6698046fa6ce3469775873509:pandmonium-app/src/components/Custom/Gula/CustomPrice.jsx
                 onChange={this.handleChecket}
             />
           </div>
