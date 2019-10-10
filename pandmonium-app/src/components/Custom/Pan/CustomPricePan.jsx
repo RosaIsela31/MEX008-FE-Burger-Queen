@@ -22,7 +22,7 @@ class CustomPricePan extends Component {
           {/* <p>{this.props.data.classic}</p>
           <p>{this.props.data.combo}</p> */}
           <div>
-            <label htmlFor="classic" name="check" >$ 15</label>
+            <label htmlFor="classic" name="check" >Pan dulce</label>
             <input 
                 name="check"
                 id="classic" 
