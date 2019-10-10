@@ -21,3 +21,5 @@ class IngredientsAlmaEnPena extends Component {
 }
 
 export default IngredientsAlmaEnPena;
+
+

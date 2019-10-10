@@ -20,7 +20,7 @@ class BtnCustomOrderMalicia extends Component {
   render() {
     return(
       <div>
-        <div className="buttonOrderMalicia">
+        <div className="buttonOrder">
         <Link to={{pathname: './Menu'}}>
          <button className="buttonOrder" onClick={this.showModal} > Añadir Pedido </button>
         </Link>

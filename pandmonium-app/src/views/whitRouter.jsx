@@ -9,15 +9,34 @@ import DessertView from '../views/MenuItemView/dessertview';
 import Login from '../views/Login/Login';
 import Mesas from '../views/TableSelectorView/index'
 import CustomView from '../views/CustonViews/index';
+import Error404 from '../views/Page404/index';
 // import Orders from '../views/OrderCarView/index';
- import SodaView from '../views/MenuItemView/sodasview';
-import CustomMilkshake from '../views/MenuItemView/milkshakeview';
+// import SodaView from '../views/MenuItemView/sodaview';
+// import MilkshakeView from '../views/MenuItemView/milkshakeview';
 import OrderCarView from '../components/orderCar/orderCarContainer';
 import CustomViewMalicia from '../views/CustonViews/CustomViewMalicia';
 import CustomViewSoberbia from '../views/CustonViews/CustomViewSoberbia';
 import CustomViewAlmaEnPena from '../views/CustonViews/CustomViewAlmaEnPena';
 import CustomViewEncarnacion from './CustonViews/CustomViewEncarnacion';
 import CustomViewBananaLimbo from './CustonViews/CustomViewBananaLimbo';
+import CustomViewJochoslaw from './CustonViews/CustomViewJochoslaw';
+import CustomViewXoloescuintle from './CustonViews/CustomViewXoloescuintle';
+import CustomViewPitBull from './CustonViews/CustomViewPitBull';
+import CustomViewHachiko from './CustonViews/CustomViewHachiko';
+import CustomViewPastorAleman from './CustonViews/CustomViewPastorAleman';
+import CustomViewDelirium from './CustonViews/CustomViewDelirium';
+import CustomViewParaisoPerdido from './CustonViews/CustomViewParaisoPerdido';
+import CustomViewChaneque from './CustonViews/CustomViewChaneque';
+import CustomViewSodoma from './CustonViews/CustomViewSodoma';
+import CustomViewLujuria from './CustonViews/CustomViewLujuria';
+import CustomViewAngelCaido from './CustonViews/CustomViewAngelCaido';
+import CustomViewPurgatorio from './CustonViews/CustomViewPurgatorio';
+import CustomViewTikiHawaiana from './CustonViews/CustomViewTikiHawaiana';
+import CustomViewMargarita from './CustonViews/CustomViewMargarita';
+import CustomViewMousse from './CustonViews/CustomViewMousse';
+import CustomViewVegatina from './CustonViews/CustomViewVegatina';
+import CustomViewHellGirl from './CustonViews/CustomViewHellGirl';
+import CustomViewPan from './CustonViews/CustomViewPan';
 
 
 class WhitRouter extends React.Component {
@@ -59,7 +78,7 @@ class WhitRouter extends React.Component {
            case '/soda':
                return(<SodaView/>)
            default:
-               return (<p>404</p>)
+               return (<Error404 />)
        }
    }
 }

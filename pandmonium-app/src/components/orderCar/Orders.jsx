@@ -9,38 +9,34 @@ class Orders extends Component{
             <h4>Pedidos</h4>
             <div  className = "orderContainer">
             <div type = "text" className="order-list">  
-            <p> Mesa: <br />
-             {localStorage.getItem('No_mesa')}
-            </p>  
-            <p>
-             {localStorage.getItem('gula')}
-
-            </p>  
-            <p>
-             {localStorage.getItem('extra')}
-            </p>       
-            <p>
-             {localStorage.getItem('malicia')}
-            </p>  
-            <p>
-             {localStorage.getItem('soberbia')}
-            </p>
-            <p>
-             {localStorage.getItem('encamacion')}
-            </p>  
-            <p>
-             {localStorage.getItem('bananalimbo')}
-            </p>  
-            <p>
-             {localStorage.getItem('almaenpena')}
-            </p> 
-            <p>
-             {localStorage.getItem('malteada')}
-            </p> 
-            <p>
-             {localStorage.getItem('soda')}
-            </p> 
-
+            <p> Mesa: <br /> </p>  
+             {localStorage.getItem('No_mesa')} <br/> 
+             {localStorage.getItem('gula')} <br/>
+             {localStorage.getItem('extra')} <br/>
+             {localStorage.getItem('malicia')} <br/>  
+             {localStorage.getItem('soberbia')} <br/>    
+             {localStorage.getItem('encarnacion')} <br/>       
+             {localStorage.getItem('bananalimbo')} <br/>    
+             {localStorage.getItem('encarnacion')} <br/> 
+             {localStorage.getItem('jochoslaw')} <br/> 
+             {localStorage.getItem('xoloescuintle')} <br/>
+             {localStorage.getItem('pitbull')} <br/>  
+             {localStorage.getItem('hachiko')} <br/>
+             {localStorage.getItem('pastoraleman')} <br/>
+             {localStorage.getItem('delirium')} <br/>
+             {localStorage.getItem('paraisoperdido')} <br/>
+             {localStorage.getItem('chaneque')} <br/>
+             {localStorage.getItem('sodoma')} <br/>
+             {localStorage.getItem('lujuria')} <br/>
+             {localStorage.getItem('angelcaido')} <br/>
+             {localStorage.getItem('purgatorio')} <br/>
+             {localStorage.getItem('tikihawaiana')} <br/>
+             {localStorage.getItem('margarita')} <br/>
+             {localStorage.getItem('almaenpena')} <br/>  
+             {localStorage.getItem('mousse')} <br/>
+             {localStorage.getItem('vegatina')} <br/>
+             {localStorage.getItem('hellgirl')} <br/>
+             {localStorage.getItem('pan')} <br/>
             </div>
             
             <figure>
@@ -49,7 +45,6 @@ class Orders extends Component{
                 </button>
             </figure>
             </div>
-            {/* -------------------------- */}
             </div>
         );
     }

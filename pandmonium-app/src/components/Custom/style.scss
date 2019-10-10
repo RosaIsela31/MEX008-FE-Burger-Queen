@@ -8,11 +8,11 @@
     font-family: 'Reem Kufi', sans-serif;
     font-size: 1rem;
     font-weight: bold;
-    margin: auto;
+    margin: 4rem auto;
 }
 .price-custom {
     display: flex;
-    width: 250px;
+    width: 300px;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
@@ -36,6 +36,10 @@ figure {
   
   }
 
+  .option-price {
+    text-align: center;
+  }
+
   .ingredientsOptions {
       display: flex;
       flex-direction: column; 
@@ -43,8 +47,7 @@ figure {
       font-size: 17px;  
       box-shadow: 0px 2px 8px 7px rgba(77, 74, 74, 0.08);
       border-radius: 10px;
-      padding-left: 2rem;
-      padding-bottom: 2rem;
+      padding:2rem;
       margin-bottom: 2rem;
       margin-top: 1rem;
     }
@@ -58,6 +61,36 @@ figure {
         align-items: center;
         text-align: center;
         justify-content: center;
+  }
+
+  input#classic, input#combo {
+    transform: scale(2.5);
+    margin:0.5rem auto;
+    display: flex;
+    justify-content: flex-end;
+  
+  }
+
+ #chica, #mediana, #grande {
+  transform: scale(2);
+  margin:0.5rem auto;
+    display: flex;
+    justify-content: flex-end;
+ }
+
+  .extra-container {
+    display: flex;
+  }
+
+  .extra-container label {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+  .extra-container input {
+    transform: scale(2);
+    margin-top: 1rem;
   }
 
   button {
@@ -90,7 +123,7 @@ figure {
       display: flex;
       padding-bottom: 0.3rem;
       margin: 0 auto;
-      width: 60%;
+      width: 100%;
   }
 
 .figure-custom{
